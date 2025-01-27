@@ -89,11 +89,11 @@ def main():
     QUERIES_DIR = "/Users/raahimlone/rahhh/Data_Gathering/raw_sql_queries"      # <-- Update this path
     OUTPUT_CSV = "/Users/raahimlone/rahhh/results.csv"        # <-- Update this path
 
-    PG_HOST = "localhost"                           # Update if different
-    PG_DB = "IMDB"                         # <-- Update this
-    PG_USER = "postgres"                       # <-- Update this
-    PG_PASSWORD = "raahimlhere"                   # <-- Update this
-    PG_PORT = 6543                                  # Update if different
+    PG_HOST = "host"                           # Update if different
+    PG_DB = "database"                         # <-- Update this
+    PG_USER = "username"                       # <-- Update this
+    PG_PASSWORD = "password"                   # <-- Update this
+    PG_PORT = port                                  # Update if different
 
     # 1) Verify Queries Directory
     if not os.path.isdir(QUERIES_DIR):
