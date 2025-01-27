@@ -532,11 +532,11 @@ def main():
             sys.exit(1)
 
     # PostgreSQL connection details
-    PG_HOST = "localhost"
-    PG_DB   = "IMDB"
-    PG_USER = "postgres"
-    PG_PASSWORD = "raahimlhere"
-    PG_PORT = 6543  # Ensure this is the correct port
+    PG_HOST = "host"
+    PG_DB   = "database_name"
+    PG_USER = "username"
+    PG_PASSWORD = "password"
+    PG_PORT = port  # Ensure this is the correct port
 
     # 1) Load IMC factors
     try:
