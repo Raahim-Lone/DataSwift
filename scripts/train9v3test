@@ -840,11 +840,11 @@ def main():
     MODEL_DIR = "/Users/raahimlone/New_Data"
     QUERIES_DIR = "/Users/raahimlone/rahhh/Data_Gathering/raw_sql_queries"
     OUTPUT_CSV = "/Users/raahimlone/rahhh/results_imc_25feat.csv"
-    PG_HOST = "localhost"
-    PG_DB = "IMDB"
-    PG_USER = "postgres"
-    PG_PASSWORD = "raahimhere"
-    PG_PORT = 6543
+    PG_HOST = "host"
+    PG_DB = "database"
+    PG_USER = "username"
+    PG_PASSWORD = "password"
+    PG_PORT = host
 
     # ---------------- Load IMC Model Components ----------------
     try:
