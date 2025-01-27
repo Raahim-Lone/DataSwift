@@ -6,11 +6,11 @@ import json
 
 # Configuration
 DB_CONFIG = {
-    'dbname': 'IMDB',
-    'user': 'postgres',       # Replace with your PostgreSQL username
-    'password': 'raahimlhere',   # Replace with your PostgreSQL password
-    'host': 'localhost',           # Replace if your DB is hosted elsewhere
-    'port': '6543',                # Default PostgreSQL port
+    'dbname': 'database',
+    'user': 'username',       # Replace with your PostgreSQL username
+    'password': 'rpassword',   # Replace with your PostgreSQL password
+    'host': 'host',           # Replace if your DB is hosted elsewhere
+    'port': 'port',                # Default PostgreSQL port
 }
 
 QUERIES_DIR = '/Users/raahimlone/project_root/Data_Gathering/raw_sql_queries'
