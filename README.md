@@ -17,7 +17,7 @@ Traditional learned query optimizers often suffer from unpredictable slowdowns o
 ## 🎯 Key Features
 
 - **Zero Catastrophic Regressions**: Only 0.7 % of queries ever slow down, and none exceed catastrophic thresholds.  
-- **Tail‐Latency Speedups**: Achieves a 1.4× speedup on the slowest 5 % of queries and a 1.1× end‐to‐end workload improvement :contentReference[oaicite:1]{index=1}.
+- **Tail‐Latency Speedups**: Achieves a 1.4× speedup on the slowest 5 % of queries and a 1.1× end‐to‐end workload improvement 
 - **Safe Hint Recommendation**: Combines IMC’s calibrated predictions with a memory cache and bandit selector to ensure stability.
 
 
