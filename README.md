@@ -21,10 +21,9 @@ Traditional learned query optimizers often suffer from unpredictable slowdowns o
 - **Safe Hint Recommendation**: Combines IMC’s calibrated predictions with a memory cache and bandit selector to ensure stability.
 
 
-
 ## 🏗️ Architecture
 
-Full details are located in  [Extended Abstract](./Inductive_Matrix_Completion_with_Embedding_Memory_and_Bandit_Exploration_for_Safe_Hint_Recommendation__Extended_Abstract.pdf).
+Full details are located in  [Extended Abstract](./Inductive_Matrix_Completion_with_Embedding_Memory_and_Bandit_Exploration_for_Safe_Hint_Recommendation__Extended_Abstract .pdf).
 
 1. **Query Embedding**  
    - SQL text → SentenceTransformer → 120‐dim vector  
