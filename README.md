@@ -23,7 +23,10 @@ Traditional learned query optimizers often suffer from unpredictable slowdowns o
 
 
 ## 🏗️ Architecture
-Full details are located in [Extended Abstract](Inductive_Matrix_Completion_with_Embedding_Memory_and_Bandit_Exploration_for_Safe_Hint_Recommendation__Extended_Abstract .pdf). Here is a high level overview:
+
+Full details are located in  
+[Extended Abstract](./Inductive_Matrix_Completion_with_Embedding_Memory_and_Bandit_Exploration_for_Safe_Hint_Recommendation__Extended_Abstract.pdf).
+
 1. **Query Embedding**  
    - SQL text → SentenceTransformer → 120‐dim vector  
    - Plan DAG → GNN → 512‐dim structural vector  
